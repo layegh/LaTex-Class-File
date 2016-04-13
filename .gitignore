@@ -1,0 +1,9 @@
+# Ignore these directories
+*.aux
+*.log
+*.pdf
+*.gz
+
+LICENSE
+
+# ignore these files
