@@ -1,0 +1,13 @@
+Some syntax
+
+\bf, \it
+        - make the heading bold or italic,
+
+\scshape
+        - small capitals,
+
+\small, \normalsize, \large, \Large, \LARGE, \huge, \Huge
+        - set the font size,
+
+\rmfamily, \sffamily, \ttfamily 
+        - set the font type to serifed, san serifed or typewriter respectively.

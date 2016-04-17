@@ -18,3 +18,9 @@
   {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
   {}                           % Can be used to insert code before the heading
   [\titlerule]                 % Inserts a horizontal line after the heading
+
+
+\titleformat{\subsection}
+  {\large\scshape\raggedright}
+  {}{0em}
+  {}
