@@ -24,3 +24,13 @@
   {\large\scshape\raggedright}
   {}{0em}
   {}
+
+% Define new commands to add dates to sections and subsections
+% For \hfill command see _KLnotes
+% to use  you would write something like:
+%       \datedsubsection{University of Nowhere}{2004--2008}
+% So arg 1, or #1 is  
+
+\newcommand{\datedsubsection}[2]{  % Define a new command called datedsubsection that taked 2 arguments
+  \subsection[#1]{#1 \hfill #2}    % the subsection should look like this: {#1 \hfill #2} where #1 and #2 are substituted.
+}

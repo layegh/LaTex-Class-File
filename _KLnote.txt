@@ -11,3 +11,6 @@ Some syntax
 
 \rmfamily, \sffamily, \ttfamily 
         - set the font type to serifed, san serifed or typewriter respectively.
+        
+
+\hfill command tells LaTeX to fill as much space as possible and so pushes the second argument (#2) to the right of the page
